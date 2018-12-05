@@ -1,0 +1,27 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Projeto curso javascript caelum",
+  "main": "index.js",
+  "scripts": {
+    "fe": "lite-server",
+    "be": "json-server --watch db.json --port 8000"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "node",
+    "agenda"
+  ],
+  "author": "Bryan Valeriano",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.12.2",
+    "lite-server": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  }
+}
